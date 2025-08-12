@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import React, { useState } from 'react';
 import './App.css';
 import TodoBanner from './TodoBanner';
@@ -7,7 +7,7 @@ import TodoCreator from './TodoCreator';
 import VisibilityControl from './VisibilityControl';
  
 function App() {
-  const [userName] = useState("Doug");
+  const [userName] = useState("Irina");
  
   const [todoItems, setTodoItems] = useState([
     { action: "Buy Flowers", done: false },
