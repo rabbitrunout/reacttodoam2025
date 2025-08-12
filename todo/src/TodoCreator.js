@@ -21,6 +21,7 @@ function TodoCreator({callback})
         <div className="my-1">
             <input
                 className="form-control"
+                placeholder='...'
                 value={ newItemText }
                 onChange={ updateNewTextValue }
                 />
